@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const BALLOON_COLORS = [
