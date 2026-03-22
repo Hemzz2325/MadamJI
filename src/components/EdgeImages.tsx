@@ -1,34 +1,6 @@
 import { motion } from 'framer-motion';
 
-// 5 Dudu & Bubu images placed at the top edges of the hero section
-// Replace these URLs with /dudu1.png through /dudu5.png once you drop the images in public/
-const DUDU_IMAGES = [
-  {
-    src: 'https://media.tenor.com/TL7BjFu9kUAAAAAM/mochi-peach-cat.gif',
-    alt: 'I love you my bubbah',
-    style: { left: '-20px', top: '60px', rotate: '-12deg', width: '130px' },
-  },
-  {
-    src: 'https://media.tenor.com/UJyqPSaC6DEAAAAC/dudu-bubu.gif',
-    alt: 'Every Dudu needs a Bubu',
-    style: { left: '100px', top: '-15px', rotate: '5deg', width: '120px' },
-  },
-  {
-    src: 'https://media.tenor.com/images/7ce086b97ac471dc228ddfbc5aa63fe1/tenor.gif',
-    alt: 'Dudu Bubu hug',
-    style: { right: '90px', top: '-10px', rotate: '-6deg', width: '125px' },
-  },
-  {
-    src: 'https://media.tenor.com/73bcca577db744a5e0b7fc80e340db38/tenor.gif',
-    alt: 'Dudu Bubu fireworks',
-    style: { right: '-15px', top: '70px', rotate: '10deg', width: '135px' },
-  },
-  {
-    src: 'https://media.tenor.com/9e6af8ab5a89e3f2fdb3cdde3aef8faf/tenor.gif',
-    alt: 'Happy Birthday cake',
-    style: { left: '50%', top: '-30px', rotate: '0deg', width: '140px' },
-  },
-];
+
 
 // Use the user's local images if placed in public/
 const LOCAL_IMAGES = [
